@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Site Cursos</title>
+</head>
+<body>
+    <header class="header">
+        <div class="containerMenu">
+            <menu class="menu">
+                <div class="logoMenu">
+                    <img src="assets/img/logo-curso-01.png" alt="logo curso" class="logo">
+                </div>
+
+                <div class="navMenu">
+                    <nav class="nav">
+
+                        <ul class="listNav sidebar">
+                             <li onclick="hideSidebar()" class="itemList"><img src="assets/img/close_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="imagem icone X" height="30"></li>
+                            <li ><a href="#quemsomos" class="itemList">Quem somos</a></li>
+                            <li ><a href="#nossoscursos" class="itemList">Nossos Cursos</a></li>
+                            <li ><a href="#planos" class="itemList">Planos</a></li>
+                            <li ><a href="#vantagens" class="itemList">Vantagens</a></li>
+                        </ul>
+
+                        <ul class="listNav">
+                             
+                            <li ><a href="#quemsomos" class="itemList hidenOnMobile">Quem somos</a></li>
+                            <li ><a href="#nossoscursos" class="itemList hidenOnMobile">Nossos Cursos</a></li>
+                            <li ><a href="#planos" class="itemList hidenOnMobile">Planos</a></li>
+                            <li ><a href="#vantagens" class="itemList hidenOnMobile">Vantagens</a></li>
+                            <li onclick="showSidebar()" class="menuIcon"><a href="#" class="itemList "><img src="assets/img/menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="imagem icone menu" height="30" class="menu-button"></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </menu>
+        </div>
+        <div class="tituloHeader">
+            <h1>Aprenda a programar,</br>
+                 um projeto por vez!</h1>
+        </div>
+    </header>
+
+    <div class="containerBody">
+         <hr class="linhaDivisoria">
+
+         <section class="quem-somos" id="quemsomos">
+
+            <div class="tituloSecundario"> 
+                <h2>Quem Somos</h1>
+            </div>
+           
+            <div class="apresentacao">
+                
+                <div class="apresentacaoTexto">
+                    
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita maiores explicabo illum nesciunt odit, libero iste sunt non a nam quo repellat vitae minus, nostrum eaque, nulla quod amet autem.</p>
+                    <br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus voluptate, laudantium earum eum deserunt, repudiandae asperiores quas tempore quo recusandae animi, nemo nostrum debitis tenetur assumenda reiciendis! Illo, commodi exercitationem.</p>
+                </div>
+
+                <div class="apresentacaoImg">
+                    <img src="assets/img/gato fofo M.webp" alt="imagem seção apresentação">
+                </div>
+
+
+            </div>
+         </section>
+
+         <hr class="linhaDivisoria">
+         
+         <section class="nossos-cursos" id="nossoscursos">
+
+            <div class="tituloSecundario">
+                <h2>Nossos Cursos</h2>
+            </div>
+
+            <div class="filterButtons">
+                <button class="filterBtn activeBtn" data-filter="all">Todos</button>
+                <button class="filterBtn" data-filter="ia">Inteligência Artificial</button>
+                <button class="filterBtn" data-filter="frontend">Frontend</button>
+                <button class="filterBtn" data-filter="seguranca">Segurança da Informação</button>
+                <button class="filterBtn" data-filter="backend">Backend</button>
+            </div>
+
+
+            <div class="cursos">
+
+                <div class="curso" data-category="ia">
+                    <div class="imgCurso">
+                        <img src="assets/img/ia-01.webp" alt="imagem do curso">
+                    </div>
+
+                    <div class="tituloTerciario">
+                        <h3>Inteligência Artificial</h3>
+                    </div>
+
+                    <div class="descricaoCurso">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, aspernatur perferendis ut.</p>
+                    </div>
+                </div>
+
+                 <div class="curso" data-category="frontend">
+                    <div class="imgCurso">
+                        <img src="assets/img/front.webp" alt="imagem do curso">
+                    </div>
+
+                    <div class="tituloTerciario">
+                        <h3>Frontend</h3>
+                    </div>
+
+                    <div class="descricaoCurso">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, aspernatur perferendis ut.</p>
+                    </div>
+                </div>
+
+                 <div class="curso" data-category="seguranca">
+                    <div class="imgCurso">
+                        <img src="assets/img/Sii.png" alt="imagem do curso">
+                    </div>
+
+                    <div class="tituloTerciario">
+                        <h3>Segurança da Informação</h3>
+                    </div>
+
+                    <div class="descricaoCurso">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, aspernatur perferendis ut.</p>
+                    </div>
+                </div>
+
+                <div class="curso" data-category="backend">
+                    <div class="imgCurso">
+                        <img src="assets/img/backend.webp" alt="imagem do curso">
+                    </div>
+
+                    <div class="tituloTerciario">
+                        <h3>Backend</h3>
+                    </div>
+
+                    <div class="descricaoCurso">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, aspernatur perferendis ut.</p>
+                    </div>
+                </div>
+                
+            </div>
+         </section>
+
+         <hr class="linhaDivisoria">
+
+         <section class="planos" id="planos">
+
+            <div class="tituloSecundario">
+                <h2>Planos</h2>
+            </div>
+
+
+
+
+
+            <div class="divPlanos">
+
+                <div class="plano bg-ultra">
+                    <div class="tituloPlano">
+                        <h2>Ultra</h2>
+                        <p class="precoPlano"><sup>R$</sup>50</p>
+                    </div>
+                    <hr class="divisoriaPlano divisoria-ultra">
+
+                    <div class="divListaPlanos">
+                        <ul class="ListaPlanos">
+                            <li class="itemListaPlano">1 mês de acesso ilimitado</li>
+                            <li class="itemListaPlano">Acesso a todos os cursos</li>
+                            <li class="itemListaPlano">Certificado de conclusão</li>
+                            <li class="itemListaPlano">Suporte</li>
+                            <li class="itemListaPlano">Dowload das aulas</li>
+                        </ul>
+                    </div>
+                    <div class="btn-plano btn-ultra">
+                            <a href="#planos" class="btn-comprar"> COMPRAR</a>
+                    </div>
+                </div>
+
+                <div class="plano bg-premium">
+                    <div class="tituloPlano">
+                        <h2>Premium</h2>
+                        <p class="precoPlano"><sup>R$</sup>35</p>
+                    </div>
+                    <hr class="divisoriaPlano">
+
+                    <div class="divListaPlanos">
+                        <ul class="ListaPlanos">
+                            <li class="itemListaPlano">1 mês de acesso ilimitado</li>
+                            <li class="itemListaPlano">Acesso a todos os cursos</li>
+                            <li class="itemListaPlano">Certificado de conclusão</li>
+                            <li class="itemListaPlano">Suporte</li>
+                            
+                        </ul>
+
+                    </div>
+
+                    <div class="btn-plano">
+                            <a href="#planos" class="btn-comprar"> COMPRAR</a>
+                    </div>
+                </div>
+
+                <div class="plano">
+                    <div class="tituloPlano">
+                        <h2>Básico</h2>
+                        <p class="precoPlano"><sup>R$</sup>25</p>
+                    </div>
+                    <hr class="divisoriaPlano">
+
+                    <div class="divListaPlanos">
+                        <ul class="ListaPlanos">
+                            <li class="itemListaPlano">1 mês de acesso ilimitado</li>
+                            <li 
+                            class="itemListaPlano">Acesso a todos os cursos</li>
+                            <li class="itemListaPlano">Certificado de conclusão</li>
+                            
+                    </div>
+
+                    <div class="btn-plano">
+                            <a href="#planos" class="btn-comprar"> COMPRAR</a>
+                    </div>
+
+                </div>
+            </div>
+
+            
+         </section>
+
+         <hr class="linhaDivisoria">
+
+         <section class="vantagens" id="vantagens">
+
+            <div class="divVantagens">
+
+                <div class="vantagem">
+                    <div class="tituloVantagem">
+                        <hr class="linhaDestaqueVantagem lightGreen">
+                        <h3>Foco em projeto</h3>
+                    </div>
+
+                    <div class="textoVantagem">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid aut dolorem.</p>
+                    </div>
+                </div>
+
+                <div class="vantagem">
+                    <div class="tituloVantagem">
+                        <hr class="linhaDestaqueVantagem pink ">
+                        <h3>Portfólio incrível</h3>
+                    </div>
+
+                    <div class="textoVantagem">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid aut dolorem.</p>
+                    </div>
+                </div>
+
+                <div class="vantagem">
+                    <div class="tituloVantagem">
+                        <hr class="linhaDestaqueVantagem darkGreen">
+                        <h3>Aprenda fazendo</h3>
+                    </div>
+
+                    <div class="textoVantagem">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid aut dolorem.</p>
+                    </div>
+                </div>
+
+                <div class="vantagem">
+                    <div class="tituloVantagem">
+                        <hr class="linhaDestaqueVantagem lightGreen">
+                        <h3>Para todas as idades</h3>
+                    </div>
+
+                    <div class="textoVantagem">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid aut dolorem.</p>
+                    </div>
+                </div>
+
+                <div class="vantagem">
+                    <div class="tituloVantagem">
+                        <hr class="linhaDestaqueVantagem pink">
+                        <h3>Atualizado</h3>
+                    </div>
+
+                    <div class="textoVantagem">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid aut dolorem.</p>
+                    </div>
+                </div>
+
+                <div class="vantagem">
+                    <div class="tituloVantagem">
+                        <hr class="linhaDestaqueVantagem darkGreen">
+                        <h3>Comece hoje</h3>
+                    </div>
+
+                    <div class="textoVantagem">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid aut dolorem.</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <hr class="linhaDivisoria">
+
+         <section class="newsletter" id="newsletter">
+            <div class="divNewsletter">
+                <div class="descricaoNewsletter">
+                    <h2>Newsletter</h2>
+                    <p>Assine e fique por dentro das <br>novidades</p>
+                </div>
+
+                <div class="divInputNewsletter">
+                    <input type="email" placeholder="Digite seu melhor e-mail" >
+                    <h2><a href="#" class="btnAssinar">ASSINAR</a></h2>
+
+                    <span class="item errorMessage">mensagem de erro</span>
+                </div>
+            </div>
+
+         </section>
+    </div>
+
+    <footer>
+        <div class="divFooter">
+            <div class="descricaoFooter">
+                <p>Este é um projeto feito por Hellen Paula.
+                Rua dos Lirios - Rio de Janeiro - Centro
+                </p>
+            </div>
+
+            <div class="imgFooter">
+                <img src="assets/img/logo-curso-01.png" alt="logo curso" class="logo logoFooter">
+            </div>
+        </div>
+        
+    </footer>
+
+   
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
