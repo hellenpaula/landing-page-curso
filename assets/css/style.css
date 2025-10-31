@@ -274,7 +274,7 @@ section {
 }
 
 .planos {
-    background: var(--color-pink-light);
+    background: #f6aaff;;
     width:100%;
     margin: 15px;
     padding-bottom: 10px ;
@@ -532,7 +532,7 @@ span {
 } 
 
 footer {
-    background: #f6aaff;;
+    background: #f6aaff;
     display: flex;
     justify-content: center;
     padding: 20px;
