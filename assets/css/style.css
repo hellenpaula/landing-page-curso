@@ -482,7 +482,7 @@ span {
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: #e339d8;
+    background-color: #d537cb;
     padding: 20px 20px 28px;
     display: flex;
     flex-wrap: wrap;
@@ -532,7 +532,7 @@ span {
 } 
 
 footer {
-    background: #f599ff;;
+    background: #f6aaff;;
     display: flex;
     justify-content: center;
     padding: 20px;
